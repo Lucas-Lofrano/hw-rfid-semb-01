@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC9288A33CER-G
+D HiSAT-COT Control, 1.5A Synchronous Step-Down DC/DC Converters
+K
+F https://product.torexsemi.com/system/files/series/XC9287.pdf
+$ENDCMP
+#
+#End Doc Library
