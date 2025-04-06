@@ -2018,21 +2018,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -10970,7 +10968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AT45DB:SOIC127P798X216-8N"
+		(property "Footprint" "AT45DB021E-SHN-T:SOIC127P798X216-8N"
 			(at 234.95 124.46 0)
 			(effects
 				(font
@@ -13607,7 +13605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TPS6103:SOTFL50P160X60-8N"
+		(property "Footprint" "TPS610333DRLR:SOTFL50P160X60-8N"
 			(at 218.44 143.18 0)
 			(effects
 				(font
@@ -14204,7 +14202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "XC9288A:USP-6C"
+		(property "Footprint" "AT45DB021E-SHN-T:SOIC127P798X216-8N"
 			(at 137.16 127.94 0)
 			(effects
 				(font
