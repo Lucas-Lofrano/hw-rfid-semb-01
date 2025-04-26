@@ -2018,19 +2018,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3136,6 +3138,641 @@
 					(alternate "USART3_RTS" bidirectional line)
 					(alternate "USART4_DE" bidirectional line)
 					(alternate "USART4_RTS" bidirectional line)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_1_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_2_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_2_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_3_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_3_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_4_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_4_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_5_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_5_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
 			(embedded_fonts no)
@@ -5106,6 +5743,12 @@
 		(uuid "17921228-9d76-49cf-98c5-631ef8b564dc")
 	)
 	(junction
+		(at 27.94 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17c08202-3831-45c8-8d72-980582d992fa")
+	)
+	(junction
 		(at 130.81 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5160,10 +5803,10 @@
 		(uuid "44468995-5d4c-45df-8ebf-6f61e0aeaa18")
 	)
 	(junction
-		(at 27.94 54.61)
+		(at 27.94 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5037096b-1875-4267-a6fc-192e352a3bce")
+		(uuid "4885178c-c52f-4121-b517-d154ab5abb17")
 	)
 	(junction
 		(at 95.25 39.37)
@@ -5212,12 +5855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91cb1dc1-7b45-4469-abcc-bbe728e38fac")
-	)
-	(junction
-		(at 27.94 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "976b22e9-6602-4b61-971c-b23c8b7069cb")
 	)
 	(junction
 		(at 52.07 97.79)
@@ -5327,16 +5964,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 54.61) (xy 27.94 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02a8f560-dcca-41a6-8016-984b7b33d416")
-	)
-	(wire
-		(pts
 			(xy 109.22 55.88) (xy 111.76 55.88)
 		)
 		(stroke
@@ -5357,13 +5984,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 71.12) (xy 27.94 71.12)
+			(xy 24.13 176.53) (xy 29.21 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0767a0ae-f5e8-42bf-8036-6870a58273f5")
+		(uuid "0860fd10-cfc2-4133-b83d-2f047a0c74fa")
 	)
 	(wire
 		(pts
@@ -6027,16 +6654,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 179.07) (xy 29.21 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f5a1e2-ab04-41ec-8741-f2f7f59ddc3d")
-	)
-	(wire
-		(pts
 			(xy 132.08 106.68) (xy 137.16 106.68)
 		)
 		(stroke
@@ -6244,6 +6861,16 @@
 			(type default)
 		)
 		(uuid "93560421-e217-4abb-a2ef-e1089edc5bd9")
+	)
+	(wire
+		(pts
+			(xy 19.05 54.61) (xy 27.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d3dc62-341d-471d-8267-c55440ba2d8b")
 	)
 	(wire
 		(pts
@@ -6557,16 +7184,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 176.53) (xy 29.21 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7736521-f127-4cb8-b7a2-f36dc8dbf0ab")
-	)
-	(wire
-		(pts
 			(xy 19.05 128.27) (xy 36.83 128.27)
 		)
 		(stroke
@@ -6634,6 +7251,16 @@
 			(type default)
 		)
 		(uuid "df1fc333-d681-4bcb-ae0e-d7cd6221c6cd")
+	)
+	(wire
+		(pts
+			(xy 24.13 179.07) (xy 29.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd34998-1e47-44c6-b01b-1cc58ca962b8")
 	)
 	(wire
 		(pts
@@ -6717,6 +7344,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 71.12) (xy 27.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f666b61b-ebf0-43d1-8f6e-f18dafda0e53")
+	)
+	(wire
+		(pts
 			(xy 254 143.51) (xy 274.32 143.51)
 		)
 		(stroke
@@ -6755,7 +7392,7 @@
 		)
 		(uuid "02a391c3-2ef1-4c7e-b982-622d06b5c5b4")
 	)
-	(label "LPUART2_TX"
+	(label "LPUART2_RX"
 		(at 54.61 176.53 0)
 		(effects
 			(font
@@ -6776,7 +7413,7 @@
 		(uuid "109c173f-bc3b-43c8-aed4-da24b6f15b0c")
 	)
 	(label "SWDIO"
-		(at 29.21 179.07 0)
+		(at 29.21 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7015,7 +7652,7 @@
 		)
 		(uuid "a57b0bf6-e2c8-419f-9b98-af84527f1f44")
 	)
-	(label "LPUART2_RX"
+	(label "LPUART2_TX"
 		(at 54.61 179.07 0)
 		(effects
 			(font
@@ -7206,7 +7843,7 @@
 		(uuid "f9ef4802-7803-4d91-95d5-245d198513ca")
 	)
 	(label "SWCLK"
-		(at 29.21 176.53 0)
+		(at 29.21 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11843,6 +12480,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
 		(at 266.7 148.59 90)
 		(unit 1)
@@ -12480,6 +13118,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_3")
 		(lib_id "Device:R_Small")
 		(at 261.62 151.13 90)
 		(unit 1)
@@ -12922,6 +13561,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_4")
 		(lib_id "Device:R_Small")
 		(at 250.19 120.65 90)
 		(unit 1)
@@ -14202,7 +14842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AT45DB021E-SHN-T:SOIC127P798X216-8N"
+		(property "Footprint" "XC9288A33CER-G:USP-6C"
 			(at 137.16 127.94 0)
 			(effects
 				(font
@@ -14688,6 +15328,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_5")
 		(lib_id "Device:R_Small")
 		(at 255.27 123.19 90)
 		(unit 1)
@@ -15343,6 +15984,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_2")
 		(lib_id "Device:R_Small")
 		(at 271.78 146.05 90)
 		(unit 1)
